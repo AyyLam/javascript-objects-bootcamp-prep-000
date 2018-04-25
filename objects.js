@@ -1,10 +1,10 @@
 var playlist = {"Michael Jackson": "Beat it"} 
 
 function updatePlaylist(obj, artist, song) {
-  obj[artist] = song
-  return obj
+  playlist[artist] = song
+  return playlist
 }
 
 function removeFromPlaylist(playlist, artist) {
-  delete obj[artist] 
+  delete playlist[artist] 
 }
